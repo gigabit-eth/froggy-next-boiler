@@ -1,0 +1,26 @@
+{
+  "name": "froggy-next-boiler",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "vercel"
+  },
+  "dependencies": {
+    "frog": "latest",
+    "hono": "^4",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "vercel": "^35.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}
